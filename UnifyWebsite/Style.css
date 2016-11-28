@@ -1,105 +1,41 @@
-﻿body {
-    background-color: #f5f5f6;
+﻿
+.logo {
+    margin: 30px 0 0 -50px;
 }
 
-.container {
-    background-color: white;
-}
-
-#main-container {
-}
-
-.container-fluid {
-    background-color: white;
-}
-
-.header-top {
-    max-width:100%;
-    border:0;
-}
-
-.header-top ul li {
-display: inline-block;
-text-decoration: none;
-float: right;
-margin-left:10px;
-font-color: #f5f5f6;
-font-family: Verdana;
-}
-
-.header-top a:link {
-    color:black;
-}
-
-.header-top a:hover {
-    color: #6ebe25;
-    text-decoration: none;
-}
-
-.nav-bar ul li {
+.nav-wrapper ul {
     display: inline-block;
-    text-decoration: none;
-    margin: 4px;
-    font-family: Verdana;
 }
 
-.nav-bar a {
-    padding: 10px;
+.nav-wrapper li{
+    display: inline-block;
+    position: relative;  
+    color: #687074;
+    margin-top:50px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 17px;
+    padding: 5px 15px 5px 15px;
 }
 
-.nav-bar a:link {
-    color: black;
+#nav-menu-home {
+    color: #72c02c;
+    border-bottom: 3px solid #72c02c;
 }
 
-.nav-bar a:hover {
-    color: #6ebe25;
-    text-decoration: none;
-    border-bottom: 2px solid #6ebe25;
-    border-radius:1px;
-    padding-bottom:12px;
-}
-
-.glyphicon.glyphicon-triangle-bottom {
+.glyphicon-menu-down {
+    color: #aaa;
     font-size: 10px;
 }
 
-.glyphicon.glyphicon-search {
- background-color: #f5f5f6;
- font-size:15px;
- padding:10px;
+.nav-menu-search a {
+    color: #aaa;
 }
 
-.image-wrapper {
-    overflow: hidden;
-    width: 100%;
-    height: 350px;
-}
-
-.box-right {
-    padding:20px;
-}
-
-.header-below {
-    background-color: #f5f5f6;
-    margin: 20px;
-}
-
-.content-wrapper {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.glyphicon.glyphicon-phone {
-    font-size: 50px;
-    color: #6ebe25;
-}
-
-.glyphicon.glyphicon-object-align-horizontal {
-    font-size: 50px;
-    color: #6ebe25;
-}
-
-.glyphicon.glyphicon-tower {
-    font-size: 50px;
-    color: #6ebe25;
+.glyphicon-search {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 3px solid #aaa;
+    background-color: #f7f7f7;
+    margin: 0 0 0 -50px;
 }
